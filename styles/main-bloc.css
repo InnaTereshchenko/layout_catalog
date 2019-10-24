@@ -92,12 +92,27 @@
 
 .rating-stars__star {
   margin-right: 4px;
-  background: url("../images/star-active.svg") no-repeat;
+  background: url("../images/star.svg") no-repeat;
   height: 14px;
   width: 15px; }
 
 .rating-stars__star--not-active {
   background: url("../images/star.svg") no-repeat; }
+
+.stars-1 .rating-stars__star:nth-child(-n+1) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars-2 .rating-stars__star:nth-child(-n+2) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars-3 .rating-stars__star:nth-child(-n+3) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars-4 .rating-stars__star:nth-child(-n+4) {
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars-5 .rating-stars__star:nth-child(-n+5) {
+  background: url("../images/star-active.svg") no-repeat; }
 
 .product__rate {
   margin: 0;
