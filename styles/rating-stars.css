@@ -1,0 +1,21 @@
+.rating-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.rating-stars__star {
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat;
+  height: 14px;
+  width: 15px; }
+
+.rating-stars__star--not-active {
+  background: url("../images/star.svg") no-repeat; }
+
+/*# sourceMappingURL=rating-stars.css.map */
